@@ -3,8 +3,8 @@ import { View, Text, StyleSheet } from 'react-native';
 
 export default function Despesas() {
   return (
-    <View style={styles.card}>
-      <Text style={styles.text}>R$ 9450,00</Text>
+    <View>
+      <Text style={styles.text}>R$ -3000,00</Text>
     </View>
   );
 }

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 export default function Balanco() {
   return (
-    <View style={styles.card}>
+    <View>
       <Text style={styles.text}>Balanço</Text>
     </View>
   );

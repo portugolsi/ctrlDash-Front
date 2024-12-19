@@ -3,9 +3,9 @@ import { View, Text, StyleSheet } from 'react-native';
 
 export default function Receitas() {
   return (
-    <View style={styles.card}>
-      <Text style={styles.text}>R$ 3000,00</Text>
-    </View>
+   <View>
+         <Text style={styles.text}>R$ 3000,00</Text>
+       </View>
   );
 }
 
@@ -17,9 +17,10 @@ const styles = StyleSheet.create({
     padding: 20,
     marginVertical: 10,
     alignItems: 'center',
-  },text: {
-    color: '#FFFF',
+  },
+  text: {
+    color: '#FFFFFF',
     fontSize: 20,
-    fontWeight: '400',
+    fontWeight: 'bold',
   },
 });
